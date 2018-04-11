@@ -1,11 +1,14 @@
 package pre.huangjs.view;
 
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.scene.control.MenuBar;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.stage.Stage;
+import org.fxmisc.flowless.VirtualizedScrollPane;
 
 /**
  * Created by huangjs on 2018/4/11.
@@ -27,7 +30,18 @@ public class MyMarkdown extends Application {
 
         // helper
 
+        // file navigation
+
+
         // editor area
+        Editor editor = new Editor();
+        root.add(new VirtualizedScrollPane(editor.getCodeArea()), 1, 2);
+
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add(MyMarkdown.class.getResource("/java-keywords.css").toExternalForm());
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("My Markdown");
+        primaryStage.show();
 
     }
 

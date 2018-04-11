@@ -38,6 +38,9 @@ public class MyMenuBar {
         // add menu items into menu
         fileMenu.getItems().addAll(addProject, newFolder, newFile, exit);
 
+        // add menu into menu bar
+        menuBar.getMenus().add(fileMenu);
+
         return menuBar;
     }
 }
