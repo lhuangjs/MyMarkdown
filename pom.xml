@@ -34,8 +34,10 @@
     <!--</repository>-->
     <!--</repositories>-->
 
-    <!--SWT-->
+
     <repositories>
+
+        <!--SWT-->
         <repository>
             <id>maven-eclipse-repo</id>
             <url>http://maven-eclipse.github.io/maven</url>
@@ -64,7 +66,22 @@
             <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
             <version>${swt.version}</version>
         </dependency>
+
+        <!--java-cef v49-->
+        <dependency>
+            <groupId>org.bitbucket.johness</groupId>
+            <artifactId>java-cef</artifactId>
+            <version>49.87.win64.2</version>
+        </dependency>
+
+        <!--rich text editor-RichTextFX-->
+        <dependency>
+            <groupId>org.fxmisc.richtext</groupId>
+            <artifactId>richtextfx</artifactId>
+            <version>0.8.2</version>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
