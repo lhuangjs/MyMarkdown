@@ -10,32 +10,51 @@ import com.vladsch.flexmark.util.options.DataHolder;
 import com.vladsch.flexmark.util.options.MutableDataHolder;
 import com.vladsch.flexmark.util.options.MutableDataSet;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public class Markdown2HtmlService {
+    private static String style = "";
 
-	public static String markdown2Html(String markdownContent) {
-		// MutableDataSet options = new MutableDataSet();
-		//
-		// Parser parser = Parser.builder(options).build();
-		// Node node = parser.parse(markdownContent);
-		// HtmlRenderer render = HtmlRenderer.builder(options).build();
-		//
-		// String htmlContent = render.render(node);
+    static {
+        InputStream is = Markdown2HtmlService.class.getResourceAsStream("/basic-markdown.css");
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        String record = null;
+        try {
+            while ((record = br.readLine()) != null) {
+                style += record;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-		// kMarkdown
-		// MutableDataSet options = new MutableDataSet();
-		// options.setFrom(ParserEmulationProfile.KRAMDOWN);
-		// options.set(Parser.EXTENSIONS, Arrays.asList(AbbreviationExtension.create(),
-		// DefinitionExtension.create(),
-		// FootnoteExtension.create(), TablesExtension.create(),
-		// TypographicExtension.create()));
-		//
-		// Parser parser = Parser.builder(options).build();
-		// HtmlRenderer renderer = HtmlRenderer.builder(options).build();
-		//
-		// Node document = parser.parse(markdownContent);
-		// String htmlContent = renderer.render(document);
 
-		// multiMarkdown
+    public static String markdown2Html(String markdownStr) {
+        // MutableDataSet options = new MutableDataSet();
+        //
+        // Parser parser = Parser.builder(options).build();
+        // Node node = parser.parse(markdownContent);
+        // HtmlRenderer render = HtmlRenderer.builder(options).build();
+        //
+        // String htmlContent = render.render(node);
+
+        // kMarkdown
+        // MutableDataSet options = new MutableDataSet();
+        // options.setFrom(ParserEmulationProfile.KRAMDOWN);
+        // options.set(Parser.EXTENSIONS, Arrays.asList(AbbreviationExtension.create(),
+        // DefinitionExtension.create(),
+        // FootnoteExtension.create(), TablesExtension.create(),
+        // TypographicExtension.create()));
+        //
+        // Parser parser = Parser.builder(options).build();
+        // HtmlRenderer renderer = HtmlRenderer.builder(options).build();
+        //
+        // Node document = parser.parse(markdownContent);
+        // String htmlContent = renderer.render(document);
+
+        // multiMarkdown
 //		MutableDataHolder options = new MutableDataSet();
 //		options.setFrom(ParserEmulationProfile.MULTI_MARKDOWN);
 //
@@ -44,19 +63,32 @@ public class Markdown2HtmlService {
 //
 //		Node document = parser.parse(markdownContent);
 //		String htmlContent = renderer.render(document); 
-		
-	    DataHolder option = PegdownOptionsAdapter.flexmarkOptions(true,
-	            Extensions.ALL
-	    );
 
-	    final Parser parser = Parser.builder(option).build();
-	    final HtmlRenderer renderer = HtmlRenderer.builder(option).build();
-	    Node document =  parser.parse(markdownContent);
-		
-		return renderer.render(document);
+        DataHolder option = PegdownOptionsAdapter.flexmarkOptions(true, Extensions.ALL);
 
-		
-		
-	}
+        final Parser parser = Parser.builder(option).build();
+        final HtmlRenderer renderer = HtmlRenderer.builder(option).build();
+        Node document = parser.parse(markdownStr);
+        String markdownContent = renderer.render(document);
+        String htmlContent = setStyle(markdownContent);
+        System.out.println(htmlContent);
+        return htmlContent;
+    }
+
+    private static String setStyle(String markdownStr) {
+        String result = String.join("\n", new String[]{
+                "<html>",
+                "<head>",
+                    "<style>",
+                    style,
+                    "</style>",
+                "</head>",
+                "<body>",
+                    markdownStr,
+                "</body>",
+                "</html>"
+        });
+        return result;
+    }
 
 }

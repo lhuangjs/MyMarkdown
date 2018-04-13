@@ -38,8 +38,9 @@ public class MyMarkdown extends Application {
         root.add(new VirtualizedScrollPane(editor.getCodeArea()), 1, 2);
 
         // preview area
-        Preview preview = new Preview();
-        root.add(preview.browserNode(), 2, 2);
+        root.add(MarkdownPreview.display(editor.getCodeArea()), 2, 2);
+
+        // scene
         Scene scene = new Scene(root);
         scene.getStylesheets().add(MyMarkdown.class.getResource("/java-keywords.css").toExternalForm());
         primaryStage.setScene(scene);

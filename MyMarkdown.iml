@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -10,9 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="pandomium-1.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.vladsch.flexmark:flexmark-all:0.24.0" level="project" />
     <orderEntry type="library" name="Maven: com.vladsch.flexmark:flexmark:0.24.0" level="project" />
@@ -67,5 +66,6 @@
     <orderEntry type="library" name="Maven: org.fxmisc.undo:undofx:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.fxmisc.flowless:flowless:0.6" level="project" />
     <orderEntry type="library" name="Maven: org.fxmisc.wellbehaved:wellbehavedfx:0.3.1" level="project" />
+    <orderEntry type="library" name="pandomium-1.0.5" level="project" />
   </component>
 </module>

@@ -5,6 +5,7 @@ import org.fxmisc.richtext.CodeArea;
 import org.fxmisc.richtext.LineNumberFactory;
 import org.fxmisc.richtext.model.StyleSpans;
 import org.fxmisc.richtext.model.StyleSpansBuilder;
+import pre.huangjs.service.Markdown2HtmlService;
 
 import java.time.Duration;
 import java.util.Collection;
@@ -16,6 +17,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Editor {
+
+    // 定义关键字
     private static final String[] KEYWORDS = new String[] {
             "abstract", "assert", "boolean", "break", "byte",
             "case", "catch", "char", "class", "const",
@@ -29,11 +32,17 @@ public class Editor {
             "transient", "try", "void", "volatile", "while"
     };
 
+    // 匹配关键字的正则表达式
     private static final String KEYWORD_PATTERN = "\\b(" + String.join("|", KEYWORDS) + ")\\b";
+    // 匹配括号（paren）的正则表达式
     private static final String PAREN_PATTERN = "\\(|\\)";
+    // 匹配大括号（brace）的正则表达式
     private static final String BRACE_PATTERN = "\\{|\\}";
+    // 匹配中括号（bracket）的正则表达式
     private static final String BRACKET_PATTERN = "\\[|\\]";
+    // 匹配分号（semicolon）的正则表达式
     private static final String SEMICOLON_PATTERN = "\\;";
+
     private static final String STRING_PATTERN = "\"([^\"\\\\]|\\\\.)*\"";
     private static final String COMMENT_PATTERN = "//[^\n]*" + "|" + "/\\*(.|\\R)*?\\*/";
 
@@ -91,6 +100,7 @@ public class Editor {
 
     private void applyHighlighting(StyleSpans<Collection<String>> highlighting) {
         codeArea.setStyleSpans(0, highlighting);
+        MarkdownPreview.display(codeArea);
     }
 
     private static StyleSpans<Collection<String>> computeHighlighting(String text) {
