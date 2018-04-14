@@ -3,12 +3,12 @@ package pre.huangjs.view;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuBar;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.ColumnConstraints;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.RowConstraints;
+import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import org.fxmisc.flowless.VirtualizedScrollPane;
+import org.fxmisc.richtext.CodeArea;
+import pre.huangjs.builds.editor.MarkdownEditor;
+import pre.huangjs.builds.preview.MarkdownPreview;
 
 /**
  * Created by huangjs on 2018/4/11.
@@ -34,11 +34,16 @@ public class MyMarkdown extends Application {
 
 
         // editor area
-        Editor editor = new Editor();
-        root.add(new VirtualizedScrollPane(editor.getCodeArea()), 1, 2);
+        MarkdownEditor markdownEditor = new MarkdownEditor();
+        CodeArea editor = markdownEditor.getMarkdownEditor();
+        editor.setWrapText(true);
+        VirtualizedScrollPane vsPane = new VirtualizedScrollPane(editor);
+        VBox vbox = new VBox(editor);
+        VBox.setVgrow(editor, Priority.ALWAYS);
+        root.add(vbox, 1, 2);
 
-        // preview area
-        root.add(MarkdownPreview.display(editor.getCodeArea()), 2, 2);
+        // service area
+        root.add(MarkdownPreview.display(editor), 2, 2);
 
         // scene
         Scene scene = new Scene(root);

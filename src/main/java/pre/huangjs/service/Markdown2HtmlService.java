@@ -3,27 +3,25 @@ package pre.huangjs.service;
 import com.vladsch.flexmark.ast.Node;
 import com.vladsch.flexmark.html.HtmlRenderer;
 import com.vladsch.flexmark.parser.Parser;
-import com.vladsch.flexmark.parser.ParserEmulationProfile;
 import com.vladsch.flexmark.profiles.pegdown.Extensions;
 import com.vladsch.flexmark.profiles.pegdown.PegdownOptionsAdapter;
 import com.vladsch.flexmark.util.options.DataHolder;
-import com.vladsch.flexmark.util.options.MutableDataHolder;
-import com.vladsch.flexmark.util.options.MutableDataSet;
 
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 
 public class Markdown2HtmlService {
     private static String style = "";
 
     static {
-        InputStream is = Markdown2HtmlService.class.getResourceAsStream("/basic-markdown.css");
+        InputStream is = Markdown2HtmlService.class.getResourceAsStream("basic-markdown.css");
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String record = null;
         try {
             while ((record = br.readLine()) != null) {
-                style += record;
+                style += record + "\n";
             }
         } catch (IOException e) {
             e.printStackTrace();
