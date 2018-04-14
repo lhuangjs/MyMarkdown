@@ -1,104 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d59e5c0-b838-4d04-9bbe-8f3b92b86862" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_admonition_0_32_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_attributes_0_32_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_enumerated_reference_0_32_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_youtube_embedded_0_32_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pre/huangjs/service/Html2PdfService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pre/huangjs/service/basic-markdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/builds/editor/MarkdownEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/HTMLEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/MarkdownEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/MarkdownEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/TextAreaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/richtext/XMLEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/service/Html2PdfServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/temp/FontFamaiyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/xml-highlighting.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_all_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_all_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_abbreviation_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_abbreviation_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_anchorlink_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_anchorlink_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_aside_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_aside_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_autolink_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_autolink_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_definition_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_definition_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_emoji_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_emoji_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_escaped_character_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_escaped_character_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_footnotes_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_footnotes_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_issues_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_issues_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_strikethrough_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_strikethrough_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tables_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tables_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tasklist_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_tasklist_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_users_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_gfm_users_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_ins_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_ins_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_front_matter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_front_matter_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_tag_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_jekyll_tag_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_superscript_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_superscript_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_tables_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_tables_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_toc_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_toc_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_typographic_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_typographic_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_wikilink_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_wikilink_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_xwiki_macros_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_xwiki_macros_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_yaml_front_matter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_ext_yaml_front_matter_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_formatter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_formatter_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_html_parser_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_html_parser_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_jira_converter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_jira_converter_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_pdf_converter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_pdf_converter_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_profile_pegdown_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_profile_pegdown_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_util_0_32_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_youtrack_converter_0_24_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vladsch_flexmark_flexmark_youtrack_converter_0_32_18.xml" afterDir="false" />
+    <list default="true" id="6e0851bb-0ea6-4590-9ea3-1ef2b12e5535" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/preview/web/JcefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/font/BRUSHSCI.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/font/HARLOWSI.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/font/RAGE.TTF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyMarkdown.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyMarkdown.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pre/huangjs/view/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pre/huangjs/builds/editor/MarkdownEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pre/huangjs/view/MarkdownPreview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pre/huangjs/builds/preview/MarkdownPreview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMarkdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMarkdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/basic-markdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/JcefTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/PandomiumTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/SWTBrowserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/SimpleFrameExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/WindowsFXTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/richtextfx/RichTextFXTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/sample/JavaKeywords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/richtext/JavaKeywords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/sample/JavaKeywordsAsync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/temp/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/temp/WindowsFXTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basic-markdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/service/Markdown2HtmlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pre/huangjs/service/Markdown2HtmlService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/view/Editor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/view/Editor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/view/MarkdownPreview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/view/MyMarkdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pre/huangjs/view/MyMarkdown.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pre/huangjs/view/MyMenuBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pre/huangjs/view/MyMenuBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/JcefTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/PandomiumTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/PandomiumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SWTBrowserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SimpleFrameExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SimpleFrameExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SimpleFrameExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/SimpleFrameExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/WindowsFXTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/WindowsFXTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/richtext/JavaKeywordsAsync$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pre/huangjs/richtext/JavaKeywordsAsync$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/richtext/JavaKeywordsAsync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pre/huangjs/richtext/JavaKeywordsAsync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/richtextfx/RichTextFXTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/sample/JavaKeywords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/sample/JavaKeywordsAsync$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/sample/JavaKeywordsAsync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/temp/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/temp/WindowsFXTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/temp/WindowsFXTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pre/huangjs/temp/FontFamaiyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pre/huangjs/temp/FontFamaiyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pre/huangjs/temp/FontFamaiyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pre/huangjs/temp/FontFamaiyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,64 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyMarkdown.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMarkdown.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkdownPreview.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/builds/preview/MarkdownPreview.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Markdown2HtmlService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaKeywordsAsync.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/richtext/JavaKeywordsAsync.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLEditorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/HTMLEditorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic-markdown.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pre/huangjs/service/basic-markdown.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+            <state relative-caret-position="-70">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -179,22 +36,56 @@
       <file leaf-file-name="FontFamaiyTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/temp/FontFamaiyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="366">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarkdownEditor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/builds/editor/MarkdownEditor.java">
+      <file leaf-file-name="Markdown2HtmlService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="119" column="43" selection-end-line="129" />
+            <state relative-caret-position="330">
+              <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Files.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/software-win/java/jdk-9.0.4/lib/src.zip!/java.base/java/nio/file/Files.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70576">
+              <caret line="3295" column="31" selection-start-line="3295" selection-start-column="31" selection-end-line="3295" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/software-win/java/jdk-9.0.4/lib/src.zip!/java.base/java/io/InputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JcefTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/preview/web/JcefTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyMarkdown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMarkdown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -222,9 +113,11 @@
       <find>html2pdf</find>
       <find>url</find>
       <find>italic</find>
+      <find>16</find>
     </findStrings>
     <replaceStrings>
       <replace>markdownEditor</replace>
+      <replace>22</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -319,22 +212,19 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1045" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -346,6 +236,11 @@
             <path>
               <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,35 +263,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huangjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huangjs" type="462c0819:PsiDirectoryNode" />
-              <item name="builds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huangjs" type="462c0819:PsiDirectoryNode" />
-              <item name="builds" type="462c0819:PsiDirectoryNode" />
-              <item name="editor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huangjs" type="462c0819:PsiDirectoryNode" />
-              <item name="builds" type="462c0819:PsiDirectoryNode" />
-              <item name="preview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +335,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huangjs" type="462c0819:PsiDirectoryNode" />
-              <item name="richtext" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
@@ -498,7 +364,47 @@
             </path>
             <path>
               <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyMarkdown" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.bitbucket.johness:java-cef:49.87.win64.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.bitbucket.johness:java-cef:49.87.win64.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="java-cef-49.87.win64.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyMarkdown" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MyMarkdown" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MyMarkdown" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MyMarkdown" type="616d4139:PackageViewModuleNode" />
+              <item name="pre.huangjs" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -518,24 +424,25 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\@project\program\coding\java\MyMarkdown\src\main\resources\pre.huangjs.service" />
-      <recent name="D:\@project\program\coding\java\MyMarkdown\src\main\resources\pre\huangjs\builds\preview" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pre.huangjs.builds.editor" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="preview" />
-      <recent name="pre.huangjs.richtext" />
-      <recent name="pre.huangjs.richtextfx" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\coding\java\MyMarkdown\src\test\resources\font" />
       <recent name="D:\@project\program\coding\java\MyMarkdown\src\main\resources\pre\huangjs\service" />
       <recent name="D:\@project\program\coding\java\MyMarkdown\src\test\java\pre\huangjs\builds" />
       <recent name="D:\@project\program\coding\java\MyMarkdown\src\test\java\pre\huangjs\view" />
       <recent name="D:\workspace\coding\java\MyMarkdown\src\main\resources" />
-      <recent name="D:\workspace\coding\java\MyMarkdown\src\test\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="temp" />
+      <recent name="preview" />
+      <recent name="pre.huangjs.richtext" />
+      <recent name="pre.huangjs.richtextfx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\@project\program\coding\java\MyMarkdown\src\main\resources\pre.huangjs.service" />
+      <recent name="D:\@project\program\coding\java\MyMarkdown\src\main\resources\pre\huangjs\builds\preview" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -951,7 +858,7 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Application.MarkdownEditorTest (1)" />
+      <item itemvalue="Application.MarkdownEditorTest" />
       <item itemvalue="Application.MyMarkdown" />
       <item itemvalue="Application.Html2PdfServiceTest" />
       <item itemvalue="Application.HTMLEditorTest" />
@@ -962,7 +869,6 @@
         <item itemvalue="Application.FontFamaiyTest" />
         <item itemvalue="Application.MyMarkdown" />
         <item itemvalue="Application.HTMLEditorTest" />
-        <item itemvalue="Application.MarkdownEditorTest (1)" />
         <item itemvalue="Application.Html2PdfServiceTest" />
       </list>
     </recent_temporary>
@@ -990,42 +896,63 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66729000" />
+    <option name="totallyTimeSpent" value="70885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32765958" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.153125" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32765958" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33297873" />
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18229167" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32734805" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872927" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24739583" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3287234" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32765958" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info id="Nl-Palette" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Properties" order="1" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.33297873" />
+      <window_info id="Capture Tool" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18229167" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info id="Nl-Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.153125" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3287234" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="1" />
@@ -1041,14 +968,15 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32734805" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.18229167" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18229167" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info id="Nl-Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.153125" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3287234" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -1056,7 +984,6 @@
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32976446" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -1071,6 +998,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://E:/software-win/java/jdk-9.0.4/lib/src.zip!/java.base/java/io/InputStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic-markdown.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/sample/DartEditorSample.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/java-keywords.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -1124,20 +1072,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk-9.0.4/lib/src.zip!/javafx.web/javafx/scene/web/HTMLEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/control/TextArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/jdk-9.0.4/lib/src.zip!/javafx.web/javafx/scene/web/HTMLEditor.java" />
+    <entry file="jar://D:/software/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/control/TextArea.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/htmleditor/TextAreaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1191,41 +1127,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/RichTextFXTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/ParStyle.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/LinkedImage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/EmptyLinkedImage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/RealLinkedImage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/LinkedImageOps.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/TextStyle.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/MarkdownEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/RichTextFXTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/view/MarkdownEditor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/fxmisc/richtext/richtextfx/0.8.2/richtextfx-0.8.2.jar!/org/fxmisc/richtext/CodeArea.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1233,28 +1136,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/javafx/scene/layout/VBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="158" column="60" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="158" selection-end-column="60" />
-          <folding>
-            <element signature="e#6292#6293#0" expanded="true" />
-            <element signature="e#6353#6354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/javafx/scene/layout/VBox.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/fxmisc/flowless/flowless/0.6/flowless-0.6.jar!/org/fxmisc/flowless/VirtualizedScrollPane.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1272,20 +1158,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vladsch/flexmark/flexmark-pdf-converter/0.32.18/flexmark-pdf-converter-0.32.18.jar!/com/vladsch/flexmark/pdf/converter/PdfConverterExtension.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pre.huangjs.service/basic-markdown.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vladsch/flexmark/flexmark-pdf-converter/0.32.18/flexmark-pdf-converter-0.32.18.jar!/com/vladsch/flexmark/pdf/converter/PdfConverterExtension.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/pre.huangjs.service/basic-markdown.css" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/service/Html2PdfServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1303,9 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/preview/MarkdownPreview.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1318,8 +1189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/view/MyMarkdown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="924">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1332,11 +1203,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pre/huangjs/service/Markdown2HtmlService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -1373,32 +1241,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/com/sun/javafx/tk/Toolkit.java">
+    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/com/sun/javafx/tk/Toolkit.java" />
+    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/javafx/scene/text/Font.java" />
+    <entry file="jar://E:/software-win/java/jdk-9.0.4/lib/src.zip!/java.base/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="715" column="31" selection-start-line="715" selection-start-column="31" selection-end-line="715" selection-end-column="31" />
+        <state relative-caret-position="22">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/jdk1.8_161/javafx-src.zip!/javafx/scene/text/Font.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/preview/web/JcefTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
-          <folding>
-            <element signature="e#5889#5890#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/temp/FontFamaiyTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/font/RAGE.TTF">
+      <provider selected="true" editor-type-id="fontseditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pre/huangjs/temp/FontFamaiyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="366">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
           </folding>
         </state>
       </provider>
